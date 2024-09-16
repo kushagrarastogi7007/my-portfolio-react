@@ -53,7 +53,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "ReactJs", "TailwindCSS"],
-    href: "https://myntra-functional-ui-clone.vercel.app/"
+    href: "https://my-portfolio-react-dun.vercel.app/"
   },
   {
     title: "Drum Kit",
