@@ -9,6 +9,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile frontend developer wit
 
 export const EXPERIENCES = [
   {
+    year: "Oct 2024 - Present",
+    role: "Web Developer Intern",
+    company: "Abhyaz",
+    description: `Designed and optimized website layouts using Zoho Sites to enhance user interface consistency and achieve a 20% reduction in page load times. Analyzed heatmaps and user session recordings to implement data-driven navigation improvements, resulting in a 10% decrease in bounce rates. Collaborated with cross-functional teams to meet and exceed project deadlines, boosting overall productivity by 25%.`,
+    technologies: ["CSS", "Javascript", "Zoho Sites", "Zoho Pagesense"],
+  },
+  {
     year: "Nov 2022 - Dec 2022",
     role: "Web Developer Intern",
     company: "The Sparks Foundation",
