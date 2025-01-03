@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate, creative and detail-oriented frontend engineer with a strong background in developing responsive and visually appealing web applications. Skilled in HTML5, CSS3, JavaScript, and libraries like React.js.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -61,6 +62,14 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "ReactJs", "TailwindCSS"],
     href: "https://my-portfolio-react-dun.vercel.app/"
+  },
+  {
+    title: "LeetMetric App",
+    image: project5,
+    description:
+      "LeetMetric is an app that provides detailed analytics of a user's LeetCode profile, showcasing stats, tracking progress, and highlighting strengths and weaknesses to help optimize coding practice.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    href: "https://kushagrarastogi7007.github.io/JS-basic-projects/Leetmetric-App/"
   },
   {
     title: "Drum Kit",
