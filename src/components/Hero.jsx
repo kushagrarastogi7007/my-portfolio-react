@@ -47,9 +47,9 @@ const Hero = () => {
             <motion.a initial = {{y:-100 , opacity:0}} 
                 animate={{y:0, opacity:1}}
                 transition={{duration:1, delay:1.2}} 
-                href="/resume.pdf"
+                href="/Kushagra_resume_7_7.pdf"
                     target="_blank" rel="noopener noreferrer"
-                    download="/resume.pdf"
+                    download="/Kushagra_resume_7_7.pdf"
                      className="bg-white flex rounded-full p-4 text-sm text-slate-800 justify-center items-center sm:hidden mx-auto mt-20 mb-10 " >Download Resume</motion.a>
         </div>
     </div>
