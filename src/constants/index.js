@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate, creative and detail-oriented frontend engineer with a strong background in developing responsive and visually appealing web applications. Skilled in HTML5, CSS3, JavaScript, and libraries like React.js.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -54,6 +55,14 @@ export const PROJECTS = [
       "A functional e-commerce website with features like product listing, shopping cart.",
     technologies: ["HTML", "CSS", "Javascript"],
     href: "https://myntra-functional-ui-clone.vercel.app/"
+  },
+  {
+    title: "Paste App",
+    image: project6,
+    description:
+      "The app is a clipboard management tool built with React and Vite, allowing users to store and paste multiple pieces of content efficiently. It offers an intuitive interface for quick access to stored items, emphasizing a smooth user experience.",
+    technologies: ["Tailwind CSS", "Reactjs", "Redux"],
+    href: "https://react-paste-app-five.vercel.app/"
   },
   {
     title: "Portfolio Website",
