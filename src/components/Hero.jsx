@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import {HERO_CONTENT} from "../constants";
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/Kushagra-profile.png"
 
 const container = (delay) => ({
     hidden: {x: -100, opacity : 0},
@@ -37,7 +37,9 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex justify-center">
-                <motion.img initial = {{x:100 , opacity:0}} 
+                <motion.img 
+                className="rounded-full w-[450px]"
+                initial = {{x:100 , opacity:0}} 
                 animate={{x:0, opacity:1}}
                 transition={{duration:1, delay:1.2}}
                 src= {profilePic} alt="Kushagra Rastogi" />
@@ -50,7 +52,7 @@ const Hero = () => {
                 href="/Kushagra-Rastogi-resume.pdf"
                     target="_blank" rel="noopener noreferrer"
                     download="/Kushagra-Rastogi-resume.pdf"
-                     className="bg-white flex rounded-full p-4 text-sm text-slate-800 justify-center items-center sm:hidden mx-auto mt-20 mb-10 " >Download Resume</motion.a>
+                     className="bg-white flex rounded-full p-4 text-sm text-slate-800 justify-center items-center  mx-auto mt-20 mb-10 " >Download Resume</motion.a>
         </div>
     </div>
   )
