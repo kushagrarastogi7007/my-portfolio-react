@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 //import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpg";
-import project7 from "../assets/projects/explore-world.jpg";
+import project7 from "../assets/projects/explore-india.jpg";
 
 export const HERO_CONTENT = `I am a passionate, creative and detail-oriented frontend engineer with a strong background in developing responsive and visually appealing web applications. Skilled in HTML5, CSS3, JavaScript, and libraries like React.js.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -75,7 +75,7 @@ export const PROJECTS = [
   },
 
   {
-    title: "WorlInfo App",
+    title: "WorldInfo App",
     image: project7,
     description:
       "React World Info is a React.js-based web app that fetches and displays global data using a REST API with Axios. It includes search, filters, and sorting (ascending/descending) for better organization. The UI is styled with CSS for a seamless user experience.",
