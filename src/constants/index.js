@@ -1,9 +1,10 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+//import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpg";
+import project7 from "../assets/projects/explore-world.jpg";
 
 export const HERO_CONTENT = `I am a passionate, creative and detail-oriented frontend engineer with a strong background in developing responsive and visually appealing web applications. Skilled in HTML5, CSS3, JavaScript, and libraries like React.js.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -72,6 +73,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "ReactJs", "TailwindCSS"],
     href: "https://my-portfolio-react-dun.vercel.app/"
   },
+
+  {
+    title: "WorlInfo App",
+    image: project7,
+    description:
+      "React World Info is a React.js-based web app that fetches and displays global data using a REST API with Axios. It includes search, filters, and sorting (ascending/descending) for better organization. The UI is styled with CSS for a seamless user experience.",
+    technologies: ["CSS", "Javascript", "React.js", "REST API"],
+    href: "https://react-world-info.vercel.app/"
+  },
+
   {
     title: "LeetMetric App",
     image: project5,
@@ -80,6 +91,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Javascript"],
     href: "https://kushagrarastogi7007.github.io/JS-basic-projects/Leetmetric-App/"
   },
+
   {
     title: "Drum Kit",
     image: project3,
@@ -89,14 +101,14 @@ export const PROJECTS = [
     href: "https://kushagrarastogi7007.github.io/drum-kit-js/"
   },
   
-  {
-    title: "Country Guide App",
-    image: project4,
-    description:
-      "A platform where Users can search for any country by name and shows comprehensive data for respective country ",
-    technologies: ["HTML", "CSS", "Javascript"],
-    href: "https://kushagrarastogi7007.github.io/Country-guide-app/"
-  },
+  // {
+  //   title: "Country Guide App",
+  //   image: project4,
+  //   description:
+  //     "A platform where Users can search for any country by name and shows comprehensive data for respective country ",
+  //   technologies: ["HTML", "CSS", "Javascript"],
+  //   href: "https://kushagrarastogi7007.github.io/Country-guide-app/"
+  // },
 ];
 
 export const CONTACT = {
