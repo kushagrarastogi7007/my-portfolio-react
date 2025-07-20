@@ -5,6 +5,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/worldinfo.png";
+import project8 from "../assets/projects/project-8.jpg";
 
 export const HERO_CONTENT = `I am a passionate, creative and detail-oriented frontend engineer with a strong background in developing responsive and visually appealing web applications. Skilled in HTML5, CSS3, JavaScript, and libraries like React.js.  My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -49,6 +50,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "QuickAI App",
+    image: project8,
+    description:
+      "It is a full-stack AI-powered content generation platform designed to help users create high-quality text and enhanced images in seconds. Built using React, Node.js, Express, and Clerk authentication, it integrates advanced AI models like Gemini for natural language, providing a seamless user experience.",
+    technologies: [ "React.js", "Node.js", "Express.js", "Clerk", "NeonDB", "Gemini API" ],
+    href: "https://quick-ai-taupe-beta.vercel.app/"
+  },
   {
     title: "Myntra Functional UI clone",
     image: project1,
